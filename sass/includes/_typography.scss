@@ -1,0 +1,65 @@
+// ==========================================================================
+// Fontes e Cabeçalhos
+// ==========================================================================
+
+body {
+	background-color: $brand-primary;
+	color: #1f3542;
+	font-family: 'Roboto', sans-serif;
+}
+
+a,a:visited {
+	color: #2d168a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2d168a;
+	text-decoration: underline;
+}
+
+#page h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.entry-content h2 {
+	color: $brand-primary;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.entry-content h2 a,.entry-content h2 a:hover,.entry-content h2 a:visited {
+	color: $brand-primary;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+#page h4 {
+	color: #43ad8e;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.entry-content h4 {
+	margin: 20px 0 5px;
+}

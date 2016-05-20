@@ -16,6 +16,7 @@
 	color: $white;
 
 	&:hover {
-		background-color: darken($brand-primary, 10%);
+		background-color: lighten($brand-primary, 10%);
+		text-decoration: none;
 	}
 }

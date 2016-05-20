@@ -1,0 +1,184 @@
+// ==========================================================================
+// Navbar e Menus Gerais
+// ==========================================================================
+
+.site-header {
+	background-color: $brand-primary;
+	height: 89px;
+	padding: 0;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+}
+
+.main-navigation {
+	margin: 0 auto;
+	max-width: 1470px;
+	padding: 0 80px;
+	text-align: center;
+}
+
+/*.menu-primary-menu-container::before {
+	background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/logo.png') no-repeat top left;
+	background-size: 298px 22px;
+	content: 'WordCamp Buenos Aires - 2015';
+	color: #fff;
+	display: block;
+	float: left;
+	height: 22px;
+	line-height: 89px;
+	margin: 33px 0 0 127px;
+	text-align: left;
+	text-indent: -9999px;
+	width: 350px;
+}*/
+.menu-primary-menu-container::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.main-navigation ul.nav-menu {
+	float: right;
+	width: auto;
+}
+
+.main-navigation ul.nav-menu,.main-navigation div.nav-menu > ul {
+	border: none;
+}
+
+.main-navigation li {
+	margin: 0;
+}
+
+.main-navigation li a {
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	line-height: 89px;
+	padding: 0 0 0 10px;
+}
+
+.main-navigation li a::after {
+	color: rgba(255,255,255,0.30);
+	content: '/';
+	padding: 0 0 0 13px;
+}
+
+.main-navigation li.entradas a::after,
+.main-navigation li.organizadores a::after {
+	content: '';
+	padding: 0;
+}
+
+.main-navigation li.organizadores a::after {
+	padding-right: 20px;
+}
+
+.main-navigation li.entradas a::before {
+	font-family: 'FontAwesome';
+	content: '\\\f145';
+	color: white;
+	font-size: 1.4em;
+	margin-right: 10px;
+}
+
+.main-navigation li.entradas a {
+	background: rgba(0,0,0,0.05);
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.main-navigation li.entradas a:hover {
+	background: rgba(0,0,0,0.1);
+}
+
+.main-navigation li.social {
+	margin: 0 2px;
+}
+
+.main-navigation li.social a {
+	padding: 0;
+	text-indent: -9999px;
+	transition: none;
+}
+
+.main-navigation li.twitter a {
+	background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/logo-twitter.png') no-repeat;
+	background-position: right center;
+	background-size: 16px 16px;
+	margin: 0 0 0 8px;
+	width: 19px;
+}
+
+.main-navigation li.twitter a:hover {
+	background-position: left center;
+}
+
+.main-navigation li.facebook a {
+	background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/logo-facebook.png') no-repeat;
+	background-position: right center;
+	background-size: 16px 16px;
+	width: 15px;
+}
+
+.main-navigation li.facebook a:hover {
+	background-position: left center;
+}
+
+.main-navigation li.social a::after {
+	content: '';
+	padding: 0;
+}
+
+.main-navigation li a:hover {
+	color: rgba(255,255,255,0.65);
+}
+
+.main-navigation li ul li a {
+	background-color: #fff;
+	border-bottom: solid 1px #e8e8e8;
+	color: $brand-primary !important;
+	font-size: 14px;
+}
+
+.main-navigation li ul li a::after {
+	content: '';
+	padding: 0;
+}
+
+.main-navigation li ul li a:hover {
+	background-color: #fff;
+	color: #333 !important;
+}
+
+.main-navigation .current-menu-item > a,.main-navigation .current-menu-ancestor > a,.main-navigation .current_page_item > a,.main-navigation .current_page_ancestor > a {
+	color: #fff;
+	font-weight: 400;
+}
+
+.main-navigation ul.nav-menu.toggled-on,.menu-toggle,.menu-toggle:active,.menu-toggle.toggled-on,button:active {
+	background: none;
+	background-image: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 48px;
+	outline: none;
+	padding: 0;
+	text-transform: uppercase;
+	width: 100%;
+	transition: all .5s ease;
+}
+
+.main-navigation ul.nav-menu.toggled-on:hover,.menu-toggle:hover,.menu-toggle:focus {
+	background: none;
+	background-image: none;
+	border: none;
+	border-radius: 0;
+	color: rgba(255,255,255,0.65);
+	outline: none;
+}
