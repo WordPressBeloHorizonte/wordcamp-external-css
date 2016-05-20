@@ -2,7 +2,20 @@
 // Botões
 // ==========================================================================
 
+.btn{
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.btn-lg {
+	padding: 20px 30px;
+}
+
 .btn-primary {
 	background-color: $brand-primary;
-	color: $gray-lighter;
+	color: $white;
+
+	&:hover {
+		background-color: darken($brand-primary, 10%);
+	}
 }
