@@ -2,7 +2,7 @@
 // Botões
 // ==========================================================================
 
-.btn{
+.btn {
 	text-decoration: none;
 	font-weight: normal;
 }
@@ -14,9 +14,11 @@
 .btn-primary {
 	background-color: $brand-primary;
 	color: $white;
+	transition: all .5s ease;
 
 	&:hover {
 		background-color: lighten($brand-primary, 10%);
 		text-decoration: none;
+		transition: all .5s ease;
 	}
 }
