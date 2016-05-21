@@ -3,7 +3,6 @@
 // ==========================================================================
 
 body.home .site {
-/*background: #fff url('https://2015.buenosaires.wordcamp.org/files/2015/05/wcba15-fotobsas2.jpg') no-repeat 0 89px;*/
 	background: #fff;
 }
 
@@ -69,171 +68,185 @@ body.template-front-page #page .widget-area {
 	width: 32%;
 }
 
-body.home #page #text-6 {
-
-	background: #F6F6F6;
-	display: block;
-	float: none;
-	height: 360px;
-	left: 0;
-	overflow: hidden;
+.home #secondary .first.front-widgets {
 	position: absolute;
-	top: 643px;
-	width: 100%;
-	margin: 0;
+    top: 89px;
+    left: 0px;
+    width: 100%;
+    float: none;
+    margin: 0px;
 
-	.textwidget {
-		max-width: 982px;
-		margin: 0 auto;
-		padding: 0;
+    // Widget com conteúdo da Chamada Principal
+    // Logo e infos data, hora e local
+    #text-4 {
 
-		&::after {
-			content: '';
-			clear: both;
-			display: block;
-		}
-	}
-
-	.header-widget {
-		background: none;
-		border-radius: 0;
-		box-shadow: none;
-		clear: none;
-		float: left;
-		padding: 60px 0 0;
+		background: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wordcamp_bh_bg_header.jpg') no-repeat top center;
+		/*background-attachment: fixed;*/
+		/*background-size: cover;*/
+		height: 495px;
+		padding: 60px 0 0 0;
+		overflow: hidden;
 		text-align: center;
-		width: 33.33%;
+		width: 100%;
+		margin: 0;
 
-		h4 {
-			font-size: 20px;
-			font-weight: 600;
-			letter-spacing: 1px;
-			line-height: 20px;
-			margin: 0 0 15px;
-			text-transform: uppercase;
+		.textwidget {
+			padding: 0;
+			line-height: 0;
 		}
 
-		a {
-			color: $brand-primary;
-			text-decoration: none;
-			transition: all .5s ease;
+		#chamada-principal {
+			overflow: hidden; 
+			width: 830px;
+			margin: 0 auto;
 
-			&:hover {
-				color: #333;
-				text-decoration: none;
+			#home-logo, #infos-principais {
+				float: left;
+			}
+
+			#infos-principais {
+				margin: 60px 0 0 50px;
+			}
+
+			.btn {
+				color: #fff;
 			}
 		}
 
-		p {
-			font-family: 'Roboto', sans-serif;
-			font-size: 14px;
-			line-height: 18px;
+		#register-widget {
+
+			background-color: #ebebeb;
+			height: 175px;
+			line-height: 20px;
+			padding: 60px 0 0;
+
+			h2 {
+				color: rgba(255,255,255,0.65);
+				font-size: 20px;
+				font-weight: 600;
+				letter-spacing: 2px;
+				line-height: 30px;
+				margin: 0 0 20px;
+				text-transform: uppercase;
+			}
+
+			.button {
+				background-color: rgba(255,255,255,0.65);
+				border-radius: 5px;
+				color: #fff;
+				display: inline-block;
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				font-weight: 700;
+				letter-spacing: 1px;
+				line-height: 14px;
+				padding: 15px 25px;
+				text-transform: uppercase;
+				transition: all .5s ease;
+
+				&:hover {
+					background-color: $brand-primary;
+					color: #fff;
+					text-decoration: none;
+				}
+
+			}
+
 		}
+
+		.header-widget-inner {
+			padding: 120px 20px 0;
+		}
+
 	}
 
-	.header-widget-inner {
-		padding: 110px 35px 0;
-	}
+	// Widget texto com as informacoes:
+	// Credenciamento, local e WordCana
+	#text-6 {
 
-	.attend-widget .header-widget-inner {
-		background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-attend.png') no-repeat top center;
-		background-size: 64px 64px;
-	}
+		background: #F6F6F6;
+		display: block;
+		float: none;
+		height: 360px;
+		left: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 555px;
+		width: 100%;
+		margin: 0;
 
-	.sponsor-widget .header-widget-inner {
-		background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-sponsors.png') no-repeat top center;
-		background-size: 64px 64px;
-	}
+		.textwidget {
+			max-width: 982px;
+			margin: 0 auto;
+			padding: 0;
 
-	.speaker-widget .header-widget-inner {
-		background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-speaker.png') no-repeat top center;
-		background-size: 64px 64px;
+			&::after {
+				content: '';
+				clear: both;
+				display: block;
+			}
+		}
+
+		.header-widget {
+			background: none;
+			border-radius: 0;
+			box-shadow: none;
+			clear: none;
+			float: left;
+			padding: 60px 0 0;
+			text-align: center;
+			width: 33.33%;
+
+			h4 {
+				font-size: 20px;
+				font-weight: 600;
+				letter-spacing: 1px;
+				line-height: 20px;
+				margin: 0 0 15px;
+				text-transform: uppercase;
+			}
+
+			a {
+				color: $brand-primary;
+				text-decoration: none;
+				transition: all .5s ease;
+
+				&:hover {
+					color: #333;
+					text-decoration: none;
+				}
+			}
+
+			p {
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				line-height: 18px;
+			}
+		}
+
+		.header-widget-inner {
+			padding: 110px 35px 0;
+		}
+
+		.attend-widget .header-widget-inner {
+			background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-attend.png') no-repeat top center;
+			background-size: 64px 64px;
+		}
+
+		.sponsor-widget .header-widget-inner {
+			background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-sponsors.png') no-repeat top center;
+			background-size: 64px 64px;
+		}
+
+		.speaker-widget .header-widget-inner {
+			background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-speaker.png') no-repeat top center;
+			background-size: 64px 64px;
+		}
+
 	}
 
 }
 
-body.home #page #text-4 {
-
-	background: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wordcamp_bh_bg_header.jpg') no-repeat top center;
-	/*background-attachment: fixed;*/
-	/*background-size: cover;*/
-	float: none;
-	height: 495px;
-	padding: 60px 0 0 0;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	text-align: center;
-	top: 89px;
+.home #secondary .second.front-widgets {
 	width: 100%;
-	margin: 0;
-
-	.textwidget {
-		padding: 0;
-		line-height: 0;
-	}
-
-	#chamada-principal {
-		overflow: hidden; 
-		width: 830px;
-		margin: 0 auto;
-
-		#home-logo, #infos-principais {
-			float: left;
-		}
-
-		#infos-principais {
-			margin: 60px 0 0 50px;
-		}
-
-		.btn {
-			color: #fff;
-		}
-	}
-
-	#register-widget {
-
-		background-color: #ebebeb;
-		height: 175px;
-		line-height: 20px;
-		padding: 60px 0 0;
-
-		h2 {
-			color: rgba(255,255,255,0.65);
-			font-size: 20px;
-			font-weight: 600;
-			letter-spacing: 2px;
-			line-height: 30px;
-			margin: 0 0 20px;
-			text-transform: uppercase;
-		}
-
-		.button {
-			background-color: rgba(255,255,255,0.65);
-			border-radius: 5px;
-			color: #fff;
-			display: inline-block;
-			font-family: 'Roboto', sans-serif;
-			font-size: 14px;
-			font-weight: 700;
-			letter-spacing: 1px;
-			line-height: 14px;
-			padding: 15px 25px;
-			text-transform: uppercase;
-			transition: all .5s ease;
-
-			&:hover {
-				background-color: $brand-primary;
-				color: #fff;
-				text-decoration: none;
-			}
-
-		}
-
-	}
-
-	.header-widget-inner {
-		padding: 120px 20px 0;
-	}
-
 }
