@@ -11,37 +11,34 @@
 	width: 100%;
 }
 
+/**
+ * Logotipo
+ */
+
+.menu-menu-container {
+	clear: both;
+	background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-logotipo-02.png') no-repeat center left;
+	background-size: 200px auto;
+}
+
+.menu-menu-container::after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/**
+ * Navbar
+ */
+
 .main-navigation {
 	margin: 0 auto;
 	max-width: 1470px;
 	padding: 0 80px;
 	text-align: center;
-}
-
-/*.menu-primary-menu-container::before {
-	background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/logo.png') no-repeat top left;
-	background-size: 298px 22px;
-	content: 'WordCamp Buenos Aires - 2015';
-	color: #fff;
-	display: block;
-	float: left;
-	height: 22px;
-	line-height: 89px;
-	margin: 33px 0 0 127px;
-	text-align: left;
-	text-indent: -9999px;
-	width: 350px;
-}*/
-
-.menu-primary-menu-container {
-  background: transparent url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-logotipo-02.png') no-repeat top left;
-  padding: 0;
-}
-
-.menu-primary-menu-container::after {
-	content: '';
-	clear: both;
-	display: block;
 }
 
 .main-navigation ul.nav-menu {
