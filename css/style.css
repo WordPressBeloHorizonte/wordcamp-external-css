@@ -506,18 +506,18 @@ body.template-front-page #page .widget-area {
 }
 
 .home #secondary .first.front-widgets #text-6 .attend-widget .header-widget-inner {
-  background: transparent url("https://2015.buenosaires.wordcamp.org/files/2015/03/info-attend.png") no-repeat top center;
-  background-size: 64px 64px;
+  background: transparent url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_2.png") no-repeat top center;
+  background-size: 72px 74px;
 }
 
 .home #secondary .first.front-widgets #text-6 .sponsor-widget .header-widget-inner {
-  background: transparent url("https://2015.buenosaires.wordcamp.org/files/2015/03/info-sponsors.png") no-repeat top center;
-  background-size: 64px 64px;
+  background: transparent url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_1.png") no-repeat top center;
+  background-size: 72px 74px;
 }
 
 .home #secondary .first.front-widgets #text-6 .speaker-widget .header-widget-inner {
-  background: transparent url("https://2015.buenosaires.wordcamp.org/files/2015/03/info-speaker.png") no-repeat top center;
-  background-size: 64px 64px;
+  background: transparent url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_3.png") no-repeat top center;
+  background-size: 72px 74px;
 }
 
 .home #secondary .second.front-widgets {
