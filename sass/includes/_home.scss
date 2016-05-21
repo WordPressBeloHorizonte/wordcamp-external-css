@@ -173,8 +173,22 @@ body.home #page #text-4 {
 		line-height: 0;
 	}
 
-	#home-logo {
-		margin: 115px 0 114px;
+	#chamada-principal {
+		overflow: hidden; 
+		width: 830px;
+		margin: 0 auto
+
+		#home-logo, #infos-principais {
+			float: left;
+		}
+
+		#infos-principais {
+			margin: 60px 0 0 50px;
+		}
+
+		.btn {
+			color: #fff;
+		}
 	}
 
 	#register-widget {
