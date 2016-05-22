@@ -556,7 +556,7 @@ body.template-front-page #page .widget-area {
 }
 
 #secondary {
-  margin: 165px 0 0;
+  margin: 165px 0 30px;
   padding: 75px 0 0;
   width: 24%;
 }
@@ -1626,7 +1626,7 @@ table.tix_tickets_table td.tix-column-remaining {
     overflow: hidden;
   }
   body.home #main {
-    margin: 1155px auto 0;
+    margin: 1035px auto 0;
   }
   .menu-primary-menu-container {
     background: transparent url("https://2015.buenosaires.wordcamp.org/files/2015/03/wcba-logo-web2.png") no-repeat top left;
