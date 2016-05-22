@@ -47,6 +47,15 @@
 	width: 24%;
 }
 
+//Remoção do thumbnail dos posts em páginas single
+.single {
+	.entry-header {
+		img.wp-post-image {
+		    display: none;
+		}
+	}
+}
+
 body.single-attachment #primary,body.full-width #primary {
 	width: 100%;
 	padding: 0;

@@ -561,6 +561,10 @@ body.template-front-page #page .widget-area {
   width: 24%;
 }
 
+.single .entry-header img.wp-post-image {
+  display: none;
+}
+
 body.single-attachment #primary, body.full-width #primary {
   width: 100%;
   padding: 0;
