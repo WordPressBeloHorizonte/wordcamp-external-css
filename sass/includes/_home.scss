@@ -68,17 +68,17 @@ body.template-front-page #page .widget-area {
 	width: 32%;
 }
 
-.home #secondary .first.front-widgets {
-	position: absolute;
-    top: 89px;
-    left: 0px;
-    width: 100%;
-    float: none;
-    margin: 0px;
+//Oculta os widgets da home nas demais páginas
+#text-4, #text-6 {
+	display: none;
+}
 
+.home #secondary {
     // Widget com conteúdo da Chamada Principal
     // Logo e infos data, hora e local
-    #text-4 {
+
+	#text-4 {
+		display: block;
 
 		background: url('http://2016.belohorizonte.wordcamp.org/files/2016/05/wordcamp_bh_bg_header.jpg') no-repeat top center;
 		/*background-attachment: fixed;*/
@@ -89,6 +89,10 @@ body.template-front-page #page .widget-area {
 		text-align: center;
 		width: 100%;
 		margin: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-top: 80px;
 
 		.textwidget {
 			padding: 0;
@@ -96,7 +100,7 @@ body.template-front-page #page .widget-area {
 		}
 
 		#chamada-principal {
-			overflow: hidden; 
+			overflow: hidden;
 			width: 830px;
 			margin: 0 auto;
 
@@ -163,7 +167,7 @@ body.template-front-page #page .widget-area {
 	// Widget texto com as informacoes:
 	// Credenciamento, local e WordCana
 	#text-6 {
-
+		display: block;
 		background: #F6F6F6;
 		display: block;
 		float: none;
@@ -171,7 +175,7 @@ body.template-front-page #page .widget-area {
 		left: 0;
 		overflow: hidden;
 		position: absolute;
-		top: 555px;
+		top: 635px;
 		width: 100%;
 		margin: 0;
 

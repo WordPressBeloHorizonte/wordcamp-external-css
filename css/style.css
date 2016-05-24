@@ -353,16 +353,12 @@ body.template-front-page #page .widget-area {
   width: 32%;
 }
 
-.home #secondary .first.front-widgets {
-  position: absolute;
-  top: 89px;
-  left: 0px;
-  width: 100%;
-  float: none;
-  margin: 0px;
+#text-4, #text-6 {
+  display: none;
 }
 
-.home #secondary .first.front-widgets #text-4 {
+.home #secondary #text-4 {
+  display: block;
   background: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wordcamp_bh_bg_header.jpg") no-repeat top center;
   /*background-attachment: fixed;*/
   /*background-size: cover;*/
@@ -372,39 +368,43 @@ body.template-front-page #page .widget-area {
   text-align: center;
   width: 100%;
   margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 80px;
 }
 
-.home #secondary .first.front-widgets #text-4 .textwidget {
+.home #secondary #text-4 .textwidget {
   padding: 0;
   line-height: 0;
 }
 
-.home #secondary .first.front-widgets #text-4 #chamada-principal {
+.home #secondary #text-4 #chamada-principal {
   overflow: hidden;
   width: 830px;
   margin: 0 auto;
 }
 
-.home #secondary .first.front-widgets #text-4 #chamada-principal #home-logo, .home #secondary .first.front-widgets #text-4 #chamada-principal #infos-principais {
+.home #secondary #text-4 #chamada-principal #home-logo, .home #secondary #text-4 #chamada-principal #infos-principais {
   float: left;
 }
 
-.home #secondary .first.front-widgets #text-4 #chamada-principal #infos-principais {
+.home #secondary #text-4 #chamada-principal #infos-principais {
   margin: 60px 0 0 50px;
 }
 
-.home #secondary .first.front-widgets #text-4 #chamada-principal .btn {
+.home #secondary #text-4 #chamada-principal .btn {
   color: #fff;
 }
 
-.home #secondary .first.front-widgets #text-4 #register-widget {
+.home #secondary #text-4 #register-widget {
   background-color: #ebebeb;
   height: 175px;
   line-height: 20px;
   padding: 60px 0 0;
 }
 
-.home #secondary .first.front-widgets #text-4 #register-widget h2 {
+.home #secondary #text-4 #register-widget h2 {
   color: rgba(255, 255, 255, 0.65);
   font-size: 20px;
   font-weight: 600;
@@ -414,7 +414,7 @@ body.template-front-page #page .widget-area {
   text-transform: uppercase;
 }
 
-.home #secondary .first.front-widgets #text-4 #register-widget .button {
+.home #secondary #text-4 #register-widget .button {
   background-color: rgba(255, 255, 255, 0.65);
   border-radius: 5px;
   color: #fff;
@@ -429,17 +429,18 @@ body.template-front-page #page .widget-area {
   transition: all .5s ease;
 }
 
-.home #secondary .first.front-widgets #text-4 #register-widget .button:hover {
+.home #secondary #text-4 #register-widget .button:hover {
   background-color: #e49d00;
   color: #fff;
   text-decoration: none;
 }
 
-.home #secondary .first.front-widgets #text-4 .header-widget-inner {
+.home #secondary #text-4 .header-widget-inner {
   padding: 120px 20px 0;
 }
 
-.home #secondary .first.front-widgets #text-6 {
+.home #secondary #text-6 {
+  display: block;
   background: #F6F6F6;
   display: block;
   float: none;
@@ -447,24 +448,24 @@ body.template-front-page #page .widget-area {
   left: 0;
   overflow: hidden;
   position: absolute;
-  top: 555px;
+  top: 635px;
   width: 100%;
   margin: 0;
 }
 
-.home #secondary .first.front-widgets #text-6 .textwidget {
+.home #secondary #text-6 .textwidget {
   max-width: 982px;
   margin: 0 auto;
   padding: 0;
 }
 
-.home #secondary .first.front-widgets #text-6 .textwidget::after {
+.home #secondary #text-6 .textwidget::after {
   content: '';
   clear: both;
   display: block;
 }
 
-.home #secondary .first.front-widgets #text-6 .header-widget {
+.home #secondary #text-6 .header-widget {
   background: none;
   border-radius: 0;
   box-shadow: none;
@@ -475,7 +476,7 @@ body.template-front-page #page .widget-area {
   width: 33.33%;
 }
 
-.home #secondary .first.front-widgets #text-6 .header-widget h4 {
+.home #secondary #text-6 .header-widget h4 {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -484,38 +485,38 @@ body.template-front-page #page .widget-area {
   text-transform: uppercase;
 }
 
-.home #secondary .first.front-widgets #text-6 .header-widget a {
+.home #secondary #text-6 .header-widget a {
   color: #e49d00;
   text-decoration: none;
   transition: all .5s ease;
 }
 
-.home #secondary .first.front-widgets #text-6 .header-widget a:hover {
+.home #secondary #text-6 .header-widget a:hover {
   color: #333;
   text-decoration: none;
 }
 
-.home #secondary .first.front-widgets #text-6 .header-widget p {
+.home #secondary #text-6 .header-widget p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 18px;
 }
 
-.home #secondary .first.front-widgets #text-6 .header-widget-inner {
+.home #secondary #text-6 .header-widget-inner {
   padding: 110px 35px 0;
 }
 
-.home #secondary .first.front-widgets #text-6 .attend-widget .header-widget-inner {
+.home #secondary #text-6 .attend-widget .header-widget-inner {
   background: transparent url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_2.png") no-repeat top center;
   background-size: 72px 74px;
 }
 
-.home #secondary .first.front-widgets #text-6 .sponsor-widget .header-widget-inner {
+.home #secondary #text-6 .sponsor-widget .header-widget-inner {
   background: transparent url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_1.png") no-repeat top center;
   background-size: 72px 74px;
 }
 
-.home #secondary .first.front-widgets #text-6 .speaker-widget .header-widget-inner {
+.home #secondary #text-6 .speaker-widget .header-widget-inner {
   background: transparent url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wc-icon_3.png") no-repeat top center;
   background-size: 72px 74px;
 }
