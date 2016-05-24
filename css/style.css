@@ -363,6 +363,10 @@ body.template-front-page #page .site-content {
     margin-top: 20% !important;
     max-width: 150px !important;
   }
+  #text-6 {
+    top: 490px !important;
+    height: auto !important;
+  }
   #infos-principais {
     margin-top: 20% !important;
     width: 50% !important;
