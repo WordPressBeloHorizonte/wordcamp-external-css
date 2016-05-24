@@ -798,16 +798,16 @@ table.tix_tickets_table td.tix-column-remaining {
 	.main-navigation,.site-info {
 		padding: 0 40px;
 	}
-	
+
 	.main-navigation li a {
 		font-size: 14px;
 		padding: 0 0 0 4px;
 	}
-	
+
 	.main-navigation li a::after {
 		padding: 0 0 0 8px;
 	}
-	
+
 	.main-navigation li.twitter a {
 		margin: 0 0 0 4px;
 	}
@@ -823,139 +823,141 @@ table.tix_tickets_table td.tix-column-remaining {
 	.site {
 		background-size: 1001px 103px;
 	}
-	
+
 	body.home .site {
 		background-size: 1001px 338px;
 	}
-	
+
 	#page #text-4 {
 		height: 527px;
 	}
-	
+
 	#page #text-4 #home-logo {
-		margin: 60px 0;
+		@media(min-width: 850px){
+			margin: 60px 0;
+		}
 		max-width: 300px;
 	}
-	
+
 	#page #text-4 #register-widget {
 		height: 159px;
 		padding: 30px 0 0;
 	}
-	
+
 	#page #text-5 {
 		height: 281px;
 		top: 616px;
 	}
-	
+
 	#page #text-5 .header-widget {
 		padding: 40px 0 0;
 	}
-	
+
 	.main-navigation li a {
 		line-height: 45px;
 	}
-	
+
 	.site {
 		margin: 0;
 		max-width: 100%;
 		overflow: hidden;
 	}
-	
+
 	#main {
 		margin: 89px auto 0;
 	}
-	
+
 	body.home #main {
 		margin: 933px auto 0;
 	}
-	
+
 	body.page-template-full-width #page .entry-header {
 		padding: 33px 0;
 		overflow: hidden;
 	}
-	
+
 	body.page-template-full-width #page .entry-header h1 {
 		font-size: 32px;
 		line-height: 38px;
 	}
-	
+
 	body.page-template-full-width #page .entry-title:before,body.page-template-full-width #page .entry-title:after {
 		top: 19px;
 	}
-	
+
 	#page .entry-header,#page .archive-header {
 		padding: 14px 0 0;
 		height: 89px;
 	}
-	
+
 	#page .entry-header h1,#page .archive-header h1 {
 		font-size: 22px;
 		line-height: 26px;
 	}
-	
+
 	.entry-content {
 		padding: 50px 0;
 	}
-	
+
 	#secondary {
 		margin: 103px 0 0;
 		padding: 50px 0 0;
 	}
-	
+
 	body.single .entry-content {
 		padding: 50px 0 0;
 	}
-	
+
 	.menu-primary-menu-container {
 		background: none;
 		padding: 0;
 	}
-	
+
 	#text-6 {
 		display: none;
 	}
-	
+
 	body.template-front-page #page #main {
 		background: none;
 		background-color: #fff;
 		padding-top: 0;
 	}
-	
+
 	body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
 		width: 42%;
 	}
-	
+
 	body.template-front-page #page #primary,#primary {
 		float: none;
 		padding-bottom: 30px;
 		width: auto;
 	}
-	
+
 	body.template-front-page #page #secondary,#secondary {
 		float: none;
 		margin: 0;
 		padding: 0 4%;
 		width: 92%;
 	}
-	
+
 	.site-content nav {
 		margin: 0;
 	}
-	
+
 	body.single-wcba_sponsor #page .entry-header,#page .archive-header {
 		padding: 33px 0;
 		height: auto;
 	}
-	
+
 	body.single-wcba_sponsor #page .entry-header h1,#page .archive-header h1 {
 		font-size: 32px;
 		line-height: 38px;
 	}
-	
+
 	#tix-attendees .tix-columns-3 li {
 		width: 46%;
 	}
-	
+
 	.wcorg-organizer {
 		width: 100%;
 		float: none;
@@ -967,35 +969,35 @@ table.tix_tickets_table td.tix-column-remaining {
 		background: #fff url('https://2015.buenosaires.wordcamp.org/files/2015/03/body-bg-inner.jpg') no-repeat 0 48px;
 		background-size: 1001px 103px;
 	}
-	
+
 	body.home .site {
 		background: #fff url('https://2015.buenosaires.wordcamp.org/files/2015/03/body-bg-inner.jpg') no-repeat 0 48px;
 		background-size: 1001px 338px;
 	}
-	
+
 	#page #text-4 {
 		top: 48px;
 	}
-	
+
 	#page #text-4 #home-logo {
 		margin: 74px 0;
 		max-width: 260px;
 	}
-	
+
 	#page #text-4 #register-widget h2 {
 		font-size: 16px;
 		line-height: 26px;
 		margin: 0 0 10px;
 	}
-	
+
 	#main {
 		margin: 48px auto 0;
 	}
-	
+
 	body.home #main {
 		margin: 590px auto 0;
 	}
-	
+
 	.site-header {
 		background: none;
 		background-color: $brand-primary;
@@ -1003,112 +1005,112 @@ table.tix_tickets_table td.tix-column-remaining {
 		position: absolute;
 		z-index: 9999;
 	}
-	
+
 	body.page-template-full-width #page .entry-header h1 {
 		font-size: 24px;
 		line-height: 36px;
 	}
-	
+
 	body.page-template-full-width #page .entry-title:before,body.page-template-full-width #page .entry-title:after {
 		top: 18px;
 	}
-	
+
 	#page .entry-header h1,#page .archive-header h1 {
 		font-size: 18px;
 		line-height: 20px;
 	}
-	
+
 	.main-navigation {
 		padding: 0;
 	}
-	
+
 	.main-navigation li a {
 		display: block;
 		line-height: 38px;
 		text-decoration: none;
 	}
-	
+
 	.main-navigation li a::after {
 		display: none;
 	}
-	
+
 	.main-navigation li.social {
 		margin: 0 5px;
 		display: inline-block;
 	}
-	
+
 	.site-info {
 		font-size: 16px;
 		line-height: 30px;
 		text-align: center;
 		padding: 15px;
 	}
-	
+
 	.site-info a {
 		float: none;
 		display: block;
 	}
-	
+
 	.nav-next,.nav-previous {
 		display: block;
 		float: none;
 		width: 100%;
 	}
-	
+
 	.nav-previous {
 		margin: 0 0 10px;
 	}
-	
+
 	.site-content nav {
 		margin: 0;
 	}
-	
+
 	body.home #page #text-6 {
 		display: none;
 	}
-	
+
 	.main-navigation li ul li a {
 		background: none;
 		border: none;
 		color: #fff !important;
 	}
-	
+
 	.main-navigation li ul li a:hover {
 		background: none;
 		color: rgba(255,255,255,0.65) !important;
 	}
-	
+
 	body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
 		float: none;
 		width: 84%;
 	}
-	
+
 	table,thead,tbody,th,td,tr {
 		display: block;
 	}
-	
+
 	.entry-content .t-key th {
 		display: inline;
 		font-size: 9px;
 		padding: 10px 5px;
 	}
-	
+
 	thead tr {
 		position: absolute;
 		top: -9999px;
 		left: -9999px;
 	}
-	
+
 	td {
 		border: none;
 		position: relative;
 		padding-left: 50%;
 	}
-	
+
 	.entry-content .t-biz,.entry-content .t-dev1,.entry-content .t-dev2,.entry-content .t-des,.entry-content .t-gen {
 		padding: 27px 10px 6px;
 	}
-	
+
 	td:before {
 		position: absolute;
 		top: 6px;
@@ -1118,39 +1120,39 @@ table.tix_tickets_table td.tix-column-remaining {
 		padding-right: 10px;
 		white-space: nowrap;
 	}
-	
+
 	#wordcamp-schedule td:nth-of-type(2):before {
 		content: "Schulze Auditorium";
 	}
-	
+
 	#wordcamp-schedule td:nth-of-type(3):before {
 		content: "Thornton Auditorium";
 	}
-	
+
 	#wordcamp-schedule td:nth-of-type(4):before {
 		content: "Opus Hall Room 201";
 	}
-	
+
 	#wordcamp-schedule td:nth-of-type(5):before {
 		content: "Opus Hall Room 202";
 	}
-	
+
 	#wordcamp-schedule td.t-row:before {
 		content: "";
 	}
-	
+
 	#business-summit-schedule td:nth-of-type(2):before {
 		content: "Schulze Auditorium";
 	}
-	
+
 	#business-summit-schedule td.t-row:before {
 		content: "";
 	}
-	
+
 	#tix td.tix-column-price,#tix td.tix-column-remaining,#tix td.tix-column-quantity {
 		padding-top: 25px;
 	}
-	
+
 	#tix td:before {
 		color: #636363;
 		font-size: 11px;
@@ -1158,24 +1160,24 @@ table.tix_tickets_table td.tix-column-remaining {
 		line-height: 2.181818182;
 		font-weight: 700;
 	}
-	
+
 	#tix td.tix-column-price:before {
 		content: "Precio";
 	}
-	
+
 	#tix td.tix-column-remaining:before {
 		content: "Remanente";
 	}
-	
+
 	#tix td.tix-column-quantity:before {
 		content: "Cantidad";
 	}
-	
+
 	body.single-wcb_sponsor #page .entry-header h1,#page .archive-header h1 {
 		font-size: 24px;
 		line-height: 36px;
 	}
-	
+
 	#tix-attendees .tix-columns-3 li {
 		margin: 0 0 2%;
 		width: 100%;
@@ -1189,17 +1191,17 @@ table.tix_tickets_table td.tix-column-remaining {
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	#main {
 		margin: 89px auto 0;
 		max-width: 940px;
 		overflow: hidden;
 	}
-	
+
 	body.home #main {
 		margin: 1035px auto 0;
 	}
-	
+
 	.menu-primary-menu-container {
 		background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/wcba-logo-web2.png') no-repeat top left;
 		padding: 0;
@@ -1211,7 +1213,7 @@ table.tix_tickets_table td.tix-column-remaining {
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	#main {
 		padding: 0;
 	}

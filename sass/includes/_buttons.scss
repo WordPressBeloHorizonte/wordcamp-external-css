@@ -22,3 +22,17 @@
 		transition: all .5s ease;
 	}
 }
+
+.btn-quero-palestrar {
+    margin-top: 40px;
+
+	a {
+	   color: $brand-primary !important;
+	   text-decoration: none;
+
+	   &:hover {
+	      color: lighten($brand-primary, 10%) !important;
+	      text-decoration: none;
+	   }
+	}
+}
