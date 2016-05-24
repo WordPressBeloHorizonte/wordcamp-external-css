@@ -1248,6 +1248,7 @@ article.type-wcb_speaker .entry-content h2 {
   margin: 0 1%;
   padding: 0 15px 30px 0;
   float: left;
+  width: 48%;
   box-sizing: border-box;
 }
 
@@ -1732,37 +1733,52 @@ body.single-wcb_speaker h2.speaker-sessions {
 
 .wcorg-speakers .wcorg-speaker a.social.website,
 .single-wcb_speaker a.website {
-  background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/website.png");
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/www-icon.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.facebook,
 .single-wcb_speaker a.social.facebook {
-  background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/facebook.png");
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/facebook-icon.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.twitter,
 .single-wcb_speaker a.social.twitter {
-  background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/twitter.png");
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/twitter-icon.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.googleplus,
 .single-wcb_speaker a.social.googleplus {
-  background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/googleplus.png");
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/googleplus-icon.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.linkedin,
 .single-wcb_speaker a.social.linkedin {
-  background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/linkedin.png");
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/linkedin-icon.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.instagram,
 .single-wcb_speaker a.social.instagram {
-  background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/instagram.png");
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/instagram-icon.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.pinterest,
 .single-wcb_speaker a.social.pinterest {
-  background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/pinterest.png");
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/pinterest-icon.png");
+}
+
+.wcorg-speakers .wcorg-speaker a.social.github,
+.single-wcb_speaker a.social.github {
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/github-icon.png");
+}
+
+.wcorg-speakers .wcorg-speaker a.social.youtube,
+.single-wcb_speaker a.social.youtube {
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/youtube-icon.png");
+}
+
+.wcorg-speakers .wcorg-speaker a.social.email,
+.single-wcb_speaker a.social.email {
+  background-image: url("http://2016.belohorizonte.wordcamp.org/files/2016/05/mail-icon.png");
 }
 
 .wcorg-speakers .wcorg-speaker .wcorg-speaker-description {
@@ -1855,4 +1871,8 @@ ul#session-speaker-names li {
 
 .type-wcb_session .slides div {
   display: none;
+}
+
+.sharedaddy.sd-sharing-enabled {
+  margin-top: 30px;
 }
