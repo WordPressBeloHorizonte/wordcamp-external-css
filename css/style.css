@@ -1204,7 +1204,6 @@ article.type-wcb_speaker .entry-content h2 {
   margin: 0 1%;
   padding: 0 15px 30px 0;
   float: left;
-  width: 48%;
   box-sizing: border-box;
 }
 
@@ -1212,7 +1211,7 @@ article.type-wcb_speaker .entry-content h2 {
   border-bottom: none;
 }
 
-.wcorg-organizer-description {
+.wcorg-organizer .wcorg-organizer-description {
   min-height: 100px;
 }
 
