@@ -345,6 +345,31 @@ body.template-front-page #page .site-content {
   width: 58%;
 }
 
+@media (max-width: 1050px) {
+  .menu-menu-container {
+    background: none;
+  }
+}
+
+@media (max-width: 850px) {
+  #home-logo {
+    width: 100% !important;
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  #text-4 {
+    padding: 0 !important;
+    margin-top: 0 !important;
+  }
+  #text-4 #home-logo {
+    margin: 20% auto !important;
+    max-width: 200px !important;
+  }
+  #infos-principais {
+    display: none !important;
+  }
+}
+
 body.template-front-page #page .widget-area {
   border: none;
   clear: none;
@@ -381,7 +406,7 @@ body.template-front-page #page .widget-area {
 
 .home #secondary #text-4 #chamada-principal {
   overflow: hidden;
-  width: 830px;
+  max-width: 830px;
   margin: 0 auto;
 }
 
@@ -471,7 +496,7 @@ body.template-front-page #page .widget-area {
   box-shadow: none;
   clear: none;
   float: left;
-  padding: 60px 0 0;
+  padding: 20px 0 0;
   text-align: center;
   width: 33.33%;
 }
