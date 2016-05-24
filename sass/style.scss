@@ -702,6 +702,10 @@ article.type-wcb_speaker .entry-content h2 {
 		border-bottom: none;
 	}
 
+	&:nth-child(2n+1) {
+  		clear: both;
+	}
+
 	.wcorg-organizer-description {
 		min-height: 100px;
 	}
