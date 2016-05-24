@@ -689,31 +689,32 @@ article.type-wcb_speaker .entry-content h2 {
 	margin-top: 0;
 }
 
+// Listagem dos organizadores
 .wcorg-organizer {
 /*border-bottom: solid 1px #cac9c5;*/
 	margin: 0 1%;
 	padding: 0 15px 30px 0;
 	float: left;
-	width: 48%;
 	box-sizing: border-box;
-}
 
-.wcorg-organizer:last-child {
-	border-bottom: none;
-}
+	&:last-child {
+		border-bottom: none;
+	}
 
-.wcorg-organizer-description {
-	min-height: 100px;
-}
+	.wcorg-organizer-description {
+		min-height: 100px;
+	}
 
-.wcorg-organizer img {
-	border-radius: 100%;
-	float: left;
-	margin: 0 30px 30px 0;
-}
+	img {
+		border-radius: 100%;
+		float: left;
+		margin: 0 30px 30px 0;
+	}
 
-.wcorg-organizer p {
-	margin: 0 0 30px;
+	p {
+		margin: 0 0 30px;
+	}
+
 }
 
 .wcorg-session {
