@@ -114,6 +114,11 @@ h4 {
   text-decoration: none;
 }
 
+.btn-quero-palestrar a .icone-palestrar {
+  margin-top: -10px;
+  margin-right: 10px;
+}
+
 .site-header {
   background-color: #e49d00;
   height: 89px;
