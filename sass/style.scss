@@ -1223,12 +1223,6 @@ table.tix_tickets_table td.tix-column-remaining {
 	}
 }
 
-@media screen and (min-width: 1600px) {
-	.site,body.home .site {
-		background-size: contain;
-	}
-}
-
 article.page .entry-content {
 	padding: 75px 0 15px;
 /*esto estaba en 15px 0, con esos valores la parte superior del contenido se pisa con el encabezado */
