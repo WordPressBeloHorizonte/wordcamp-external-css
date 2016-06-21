@@ -66,6 +66,11 @@ a.sponsor-logo:nth-child(2n+2) {
 	margin: 165px 0 30px;
 	padding: 75px 0 0;
 	width: 24%;
+
+	aside.widget {
+	    margin-bottom: 30px;
+	    overflow: hidden;
+	}
 }
 
 //Remoção do thumbnail dos posts em páginas single
