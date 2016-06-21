@@ -145,6 +145,7 @@ input#searchsubmit, input[type="submit"] {
 
 input#searchsubmit:hover, input[type="submit"]:hover {
   background: #ffb718;
+  color: #fff;
   text-decoration: none;
   transition: all .5s ease;
 }
@@ -636,6 +637,10 @@ body.template-front-page #page .widget-area {
 .sponsor-level.tropeirao .sponsor-logo {
   width: 70%;
   margin: 0 15%;
+}
+
+a.sponsor-logo:nth-child(2n+2) {
+  clear: both;
 }
 
 .site-title, .site-description {

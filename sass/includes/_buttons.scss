@@ -55,6 +55,7 @@ input#searchsubmit, input[type="submit"] {
 
     &:hover {
     	background: lighten($brand-primary, 10%);
+    	color: #fff;
 	    text-decoration: none;
 	    transition: all .5s ease;
     }
