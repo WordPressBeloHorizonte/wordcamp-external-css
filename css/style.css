@@ -1880,6 +1880,8 @@ td.wcb-track-sala-1, td.wcb-track-sala-2 {
 /* Sponsors Sidebar */
 .widget a.sponsor-logo {
   margin-bottom: 20px;
+  display: block !important;
+  visibility: visible !important;
 }
 
 /* Speaker Sessions */
