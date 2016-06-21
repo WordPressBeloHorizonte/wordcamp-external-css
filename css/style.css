@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -128,6 +129,24 @@ h4.sponsor-level-title {
 .btn-quero-palestrar a .icone-palestrar {
   margin-top: -10px;
   margin-right: 10px;
+}
+
+/**
+ * Botão de Busca e submit
+ */
+input#searchsubmit, input[type="submit"] {
+  background: #e49d00;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  transition: all .5s ease;
+}
+
+input#searchsubmit:hover, input[type="submit"]:hover {
+  background: #ffb718;
+  text-decoration: none;
+  transition: all .5s ease;
 }
 
 .site-header {
