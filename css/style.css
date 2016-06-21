@@ -680,6 +680,11 @@ a.sponsor-logo:nth-child(2n+2) {
   width: 24%;
 }
 
+#secondary .widget {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
 .single .entry-header img.wp-post-image {
   display: none;
 }
