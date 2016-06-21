@@ -6,6 +6,23 @@
 @import 'includes/footer';
 @import 'includes/home';
 
+
+/**
+ * Patrocinadores
+ */
+
+.sponsor-level.pao-de-queijo .sponsor-logo {
+    width: 40%;
+    float: left;
+    margin: 0 5%;
+}
+
+.sponsor-level.tropeirao .sponsor-logo {
+    width: 70%;
+    margin: 0 15%;
+}
+
+
 // ==========================================================================
 // Estilo Principal
 // ==========================================================================
