@@ -747,9 +747,9 @@ body.single-attachment #primary, body.full-width #primary {
 #page .entry-header, #page .archive-header {
   border: none;
   text-align: left;
-  padding: 80px 0 0;
+  padding: 40px 0 0;
   height: 90px;
-  margin: 0;
+  margin: 0 0 40px;
 }
 
 .search #page .entry-header, #page .archive-header {
@@ -1515,7 +1515,7 @@ table.tix_tickets_table td.tix-column-remaining {
   }
   #page .entry-header, #page .archive-header {
     padding: 14px 0 0;
-    height: 89px;
+    height: 90px;
   }
   #page .entry-header h1, #page .archive-header h1 {
     font-size: 22px;
@@ -1966,4 +1966,18 @@ ul#session-speaker-names li {
 
 .sharedaddy.sd-sharing-enabled {
   margin-top: 30px;
+}
+
+/* Assine newsletter sidebar */
+#subscribe-email, #subscribe-submit {
+  float: left;
+}
+
+#subscribe-email {
+  width: 75%;
+}
+
+#subscribe-email input {
+  width: 90%;
+  height: 18px;
 }
