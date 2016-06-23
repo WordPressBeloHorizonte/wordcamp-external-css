@@ -747,9 +747,9 @@ body.single-attachment #primary, body.full-width #primary {
 #page .entry-header, #page .archive-header {
   border: none;
   text-align: left;
-  padding: 40px 0 0;
+  padding: 60px 0 0;
   height: 90px;
-  margin: 0 0 40px;
+  margin: 0;
 }
 
 .search #page .entry-header, #page .archive-header {
@@ -916,6 +916,10 @@ hr {
   border-radius: 0;
   box-shadow: none;
   height: auto;
+}
+
+.entry-content > p > img {
+  margin-top: 24px;
 }
 
 img.alignleft {
@@ -1790,12 +1794,6 @@ article.page .entry-content {
   /*esto estaba en 15px 0, con esos valores la parte superior del contenido se pisa con el encabezado */
 }
 
-body.single-post .site-content article,
-body.single-wcb_speaker .site-content article,
-body.single-wcb_session .site-content article {
-  padding: 20px 0 15px;
-}
-
 body.single-wcb_session .entry-content {
   margin-top: 40px;
 }
@@ -1978,6 +1976,6 @@ ul#session-speaker-names li {
 }
 
 #subscribe-email input {
-  width: 90%;
+  width: 90% !important;
   height: 18px;
 }
