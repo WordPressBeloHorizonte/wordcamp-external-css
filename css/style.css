@@ -1371,6 +1371,7 @@ article.type-wcb_speaker .entry-content h2 {
 
 .wcorg-session {
   margin: 0 0 30px;
+  overflow: hidden;
 }
 
 .wcorg-session:last-child {
@@ -1395,6 +1396,11 @@ article.type-wcb_speaker .entry-content h2 {
 .wcorg-session .photo.grav-hashed.grav-hijack {
   float: left;
   margin: 10px 10px 10px 0px;
+}
+
+.wcorg-session-description {
+  overflow: auto;
+  zoom: 1;
 }
 
 body.single-wcb_session footer.entry-meta {
