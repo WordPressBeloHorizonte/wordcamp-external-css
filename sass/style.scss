@@ -765,7 +765,6 @@ article.type-wcb_speaker .entry-content h2 {
 }
 
 .wcorg-session {
-	border-bottom: solid 1px #cac9c5;
 	margin: 0 0 30px;
 }
 
@@ -774,7 +773,7 @@ article.type-wcb_speaker .entry-content h2 {
 }
 
 .wcorg-session p {
-	margin: 0 0 30px;
+	margin: 0 0 0px;
 }
 
 .wcorg-session h2 {
@@ -783,6 +782,14 @@ article.type-wcb_speaker .entry-content h2 {
 
 .wcpt-session-meta {
 	font-size: 12px;
+	padding: 5px 10px;
+    border-left: 4px solid $brand-primary;
+    background: #ffd;
+}
+
+.wcorg-session .photo.grav-hashed.grav-hijack {
+	float: left;
+	margin: 10px 10px 10px 0px;
 }
 
 body.single-wcb_session footer.entry-meta {
