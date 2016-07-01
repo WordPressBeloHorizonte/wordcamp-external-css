@@ -626,6 +626,14 @@ body.template-front-page #page .widget-area {
 }
 
 /**
+ * Programação
+ */
+.wcpt-session-type-custom {
+  background: #eee;
+  font-weight: bold;
+}
+
+/**
  * Patrocinadores
  */
 .sponsor-level.pao-de-queijo .sponsor-logo {
