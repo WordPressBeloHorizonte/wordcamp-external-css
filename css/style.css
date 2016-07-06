@@ -1996,25 +1996,22 @@ ul#session-speaker-names li {
 /*
 * Estilos para padronizar cabeçalhos das páginas e posts
 */
-.single.page-template-default #content .entry-header,
-.page.page-template-default #content .entry-header,
-.page #content .archive-header {
+.page-template-default #content .entry-header,
+.single #content .entry-header {
   position: relative;
   height: 103px;
 }
 
-.single.page-template-default #content .entry-header h1.entry-title,
-.page.page-template-default #content .entry-header h1.entry-title,
-.page #content .archive-header h1.entry-title {
+.page-template-default #content .entry-header h1.entry-title,
+.single #content .entry-header h1.entry-title {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 @media (min-width: 900px) {
-  .single.page-template-default #content .entry-header,
-  .page.page-template-default #content .entry-header,
-  .page #content .archive-header {
-    height: 165px;
+  .page-template-default #content .entry-header,
+  .single #content .entry-header {
+    height: 160px;
   }
 }

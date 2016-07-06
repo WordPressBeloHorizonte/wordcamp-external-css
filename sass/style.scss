@@ -1467,9 +1467,8 @@ ul#session-speaker-names li {
 * Estilos para padronizar cabeçalhos das páginas e posts
 */
 
-.single.page-template-default #content .entry-header, 
-.page.page-template-default #content .entry-header, 
-.page #content .archive-header {
+.page-template-default #content .entry-header, 
+.single #content .entry-header {
 	position: relative;
 	height: 103px;
 
@@ -1480,7 +1479,7 @@ ul#session-speaker-names li {
 	}
 
 	@media (min-width: 900px) {
-		height: 165px;
+		height: 160px;
 	}
 
 }
