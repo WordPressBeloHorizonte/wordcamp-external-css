@@ -708,7 +708,9 @@ body.single-wcba_sponsor .site-content nav {
 }
 
 .speaker-avatar {
-	float: right;
+	float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
 }
 
 .speaker-avatar img {
@@ -1281,11 +1283,6 @@ table.tix_tickets_table td.tix-column-remaining {
 	#main {
 		padding: 0;
 	}
-}
-
-article.page .entry-content {
-	padding: 75px 0 15px;
-/*esto estaba en 15px 0, con esos valores la parte superior del contenido se pisa con el encabezado */
 }
 
 body.single-wcb_speaker h2.speaker-sessions {
