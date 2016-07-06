@@ -1604,11 +1604,11 @@ table.tix_tickets_table td.tix-column-remaining {
 
 @media screen and (max-width: 600px) {
   .site {
-    background: #fff url("https://2015.buenosaires.wordcamp.org/files/2015/03/body-bg-inner.jpg") no-repeat 0 48px;
+    background: #fff url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wordcamp-header-secundario.jpg") no-repeat 0 48px;
     background-size: 1001px 103px;
   }
   body.home .site {
-    background: #fff url("https://2015.buenosaires.wordcamp.org/files/2015/03/body-bg-inner.jpg") no-repeat 0 48px;
+    background: #fff url("http://2016.belohorizonte.wordcamp.org/files/2016/05/wordcamp-header-secundario.jpg") no-repeat 0 48px;
     background-size: 1001px 338px;
   }
   #page #text-4 {
@@ -1761,13 +1761,13 @@ table.tix_tickets_table td.tix-column-remaining {
     font-weight: 700;
   }
   #tix td.tix-column-price:before {
-    content: "Precio";
+    content: "Preço";
   }
   #tix td.tix-column-remaining:before {
-    content: "Remanente";
+    content: "Restante";
   }
   #tix td.tix-column-quantity:before {
-    content: "Cantidad";
+    content: "Quantidade";
   }
   body.single-wcb_sponsor #page .entry-header h1, #page .archive-header h1 {
     font-size: 24px;
@@ -1968,12 +1968,6 @@ td.wcb-track-sala-1, td.wcb-track-sala-2 {
   position: relative;
 }
 
-#page .type-wcb_session > header h1 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 ul#session-speaker-names li {
   padding: 0;
   margin: 0;
@@ -1999,4 +1993,24 @@ ul#session-speaker-names li {
 #subscribe-email input {
   width: 90% !important;
   height: 18px;
+}
+
+/*
+* Estilos para padronizar cabeçalhos das páginas e posts
+*/
+.single #content .entry-header, .page #content .entry-header, .page #content .archive-header {
+  position: relative;
+  height: 103px;
+}
+
+.single #content .entry-header h1.entry-title, .page #content .entry-header h1.entry-title, .page #content .archive-header h1.entry-title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 900px) {
+  .single #content .entry-header, .page #content .entry-header, .page #content .archive-header {
+    height: 165px;
+  }
 }
