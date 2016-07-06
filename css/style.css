@@ -1997,13 +1997,15 @@ ul#session-speaker-names li {
 * Estilos para padronizar cabeçalhos das páginas e posts
 */
 .page-template-default #content .entry-header,
-.single #content .entry-header {
+.single #content .entry-header,
+.error404 #content .entry-header {
   position: relative;
   height: 103px;
 }
 
 .page-template-default #content .entry-header h1.entry-title,
-.single #content .entry-header h1.entry-title {
+.single #content .entry-header h1.entry-title,
+.error404 #content .entry-header h1.entry-title {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -2011,7 +2013,8 @@ ul#session-speaker-names li {
 
 @media (min-width: 900px) {
   .page-template-default #content .entry-header,
-  .single #content .entry-header {
+  .single #content .entry-header,
+  .error404 #content .entry-header {
     height: 160px;
   }
 }
