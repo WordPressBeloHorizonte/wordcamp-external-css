@@ -1727,10 +1727,10 @@ table.tix_tickets_table td.tix-column-remaining {
   .entry-content .t-biz, .entry-content .t-dev1, .entry-content .t-dev2, .entry-content .t-des, .entry-content .t-gen {
     padding: 27px 10px 6px;
   }
-  td:before {
+  .wcpt-session-type-session:before {
     position: absolute;
-    top: 6px;
-    left: 10px;
+    bottom: 0px;
+    right: 5px;
     width: auto;
     text-transform: uppercase;
     padding-right: 10px;
@@ -1918,6 +1918,7 @@ table.wcpt-schedule th {
   background: #e49d00;
   border: 1px solid #e49d00 !important;
   color: #fff;
+  text-align: center;
 }
 
 table.wcpt-schedule td a {

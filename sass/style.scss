@@ -1177,10 +1177,10 @@ table.tix_tickets_table td.tix-column-remaining {
 		padding: 27px 10px 6px;
 	}
 
-	td:before {
+	.wcpt-session-type-session:before {
 		position: absolute;
-		top: 6px;
-		left: 10px;
+		bottom: 0px;
+    	right: 5px;
 		width: auto;
 		text-transform: uppercase;
 		padding-right: 10px;
@@ -1386,6 +1386,7 @@ table.wcpt-schedule th {
 	background: $brand-primary;
 	border: 1px solid $brand-primary !important;
 	color: #fff;
+	text-align: center;
 }
 
 table.wcpt-schedule td a {
