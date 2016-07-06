@@ -755,8 +755,6 @@ body.single-attachment #primary, body.full-width #primary {
 #page .entry-header, #page .archive-header {
   border: none;
   text-align: left;
-  padding: 60px 0 0;
-  height: 90px;
   margin: 0;
 }
 
@@ -1998,19 +1996,25 @@ ul#session-speaker-names li {
 /*
 * Estilos para padronizar cabeçalhos das páginas e posts
 */
-.single #content .entry-header, .page #content .entry-header, .page #content .archive-header {
+.single.page-template-default #content .entry-header,
+.page.page-template-default #content .entry-header,
+.page #content .archive-header {
   position: relative;
   height: 103px;
 }
 
-.single #content .entry-header h1.entry-title, .page #content .entry-header h1.entry-title, .page #content .archive-header h1.entry-title {
+.single.page-template-default #content .entry-header h1.entry-title,
+.page.page-template-default #content .entry-header h1.entry-title,
+.page #content .archive-header h1.entry-title {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 @media (min-width: 900px) {
-  .single #content .entry-header, .page #content .entry-header, .page #content .archive-header {
+  .single.page-template-default #content .entry-header,
+  .page.page-template-default #content .entry-header,
+  .page #content .archive-header {
     height: 165px;
   }
 }
