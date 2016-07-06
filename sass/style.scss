@@ -1395,6 +1395,9 @@ table.wcpt-schedule td a {
 
 span.wcpt-session-speakers {
 	display: block;
+	@media (max-width: 700px) {
+		padding-left: 0px;
+	}
 }
 
 span.wcpt-session-speakers a {

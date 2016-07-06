@@ -1929,6 +1929,12 @@ span.wcpt-session-speakers {
   display: block;
 }
 
+@media (max-width: 700px) {
+  span.wcpt-session-speakers {
+    padding-left: 0px;
+  }
+}
+
 span.wcpt-session-speakers a {
   color: #e49d00 !important;
 }
