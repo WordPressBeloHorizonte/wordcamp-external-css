@@ -171,13 +171,15 @@ body.single-attachment #primary,body.full-width #primary {
 	margin: 0 0 75px;
 }
 
-#page .entry-title,#page .archive-title {
+#page .entry-title,
+#page .archive-title {
 	display: inline-block;
 	margin: 0;
 	position: relative;
 }
 
-#page .entry-header h1,#page .archive-header h1 {
+#page .entry-header h1,
+#page .archive-header h1 {
 	color: #fff;
 	font-size: 28px;
 	line-height: 32px;
@@ -645,7 +647,8 @@ body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
 	width: 25%;
 }
 
-body.single-wcba_sponsor #page .entry-header, #page .archive-header {
+body.single-wcba_sponsor #page .entry-header, 
+#page .archive-header {
 	padding: 58px 0;
 	height: auto;
 }
@@ -835,6 +838,10 @@ table.tix_tickets_table td.tix-column-remaining {
 
 .tix-ticket-title {
 	font-size: 1.3em;
+}
+
+#tix input[type="submit"] {
+	font-size: 16px;
 }
 
 .site-info a {
@@ -1279,10 +1286,6 @@ table.tix_tickets_table td.tix-column-remaining {
 article.page .entry-content {
 	padding: 75px 0 15px;
 /*esto estaba en 15px 0, con esos valores la parte superior del contenido se pisa con el encabezado */
-}
-
-body.single-wcb_session .entry-content {
-	margin-top: 40px;
 }
 
 body.single-wcb_speaker h2.speaker-sessions {
