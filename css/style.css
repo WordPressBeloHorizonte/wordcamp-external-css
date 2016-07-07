@@ -1414,6 +1414,10 @@ body.single-wcb_session .nav-single {
   display: none;
 }
 
+#content #tix {
+  padding-top: 0px;
+}
+
 #tix-attendees .avatar {
   border-radius: 100%;
 }
@@ -1449,6 +1453,10 @@ table.tix_tickets_table td.tix-column-remaining {
 
 #tix input[type="submit"] {
   font-size: 16px;
+}
+
+.tix-submit select {
+  display: none;
 }
 
 .site-info a {
