@@ -636,7 +636,7 @@ body.template-front-page #page .widget-area {
 /**
  * Patrocinadores
  */
-.sponsor-level.pao-de-queijo .sponsor-logo {
+.sponsor-level.pao-de-queijo .sponsor-logo, .sponsor-level.torresmo .sponsor-logo {
   width: 40%;
   float: left;
   margin: 0 5%;
